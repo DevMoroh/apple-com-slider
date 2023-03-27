@@ -22,4 +22,5 @@
 #image-container {
   height: calc(100vh - var(--r-localnav-height, 0px));
   position: sticky;
+  top: calc(var(--r-localnav-height, 0px));
 }
